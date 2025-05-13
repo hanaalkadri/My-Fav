@@ -1,8 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 import Navbar from './Components/Assets/Navbar/Navbar'; 
-
 import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
@@ -12,6 +10,7 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png';
 import women_banner from './Components/Assets/banner_women.png';
 import kids_banner from './Components/Assets/banner_kids.png';
+
 function App() {
   return (
     <BrowserRouter>
