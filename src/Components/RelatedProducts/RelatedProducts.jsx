@@ -1,7 +1,7 @@
 import React from 'react';
-import './RelatedProducts.css'; // ✅ استيراد ملف CSS بشكل صحيح
+import './RelatedProducts.css'; 
 import data_product from '../Assets/data';
-import Item from '../Item/item'; // ✅ استيراد مكون Item
+import Item from '../Item/item'; 
 
 const RelatedProducts = () => {
   return (
