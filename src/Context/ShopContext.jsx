@@ -49,7 +49,7 @@ const ShopContextProvider = (props) => {
   const contextValue = {
     getTotalCartItems,
     getTotalCartAmount,
-    all_product, // ✅ تم التصحيح هنا
+    all_product,
     cartItems,
     addToCart,
     removeFromCart,
